@@ -1,2 +1,28 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul{
+  display:flex;
+  justify-content: center;
+}
+
+li{
+  padding:10px;
+  margin-right:60px;
+  width:200px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius:13px;
+  background:#d2b48c;
+  list-style: none;
+}
+
+li:last-child{
+  margin-right:0px;
+}
